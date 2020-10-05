@@ -1,0 +1,34 @@
+#page-info-holder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:20px 0;
+    /* background: #a78627;
+    background:#f7f8fc; */
+}
+#page-info-holder>h1{
+   padding:10px 0;
+   font-size:22px;
+   /* color:#03071E;
+   color:#f7f8fc;
+   color:#a78627 */
+   text-transform: capitalize;
+}
+#page-info-holder>p{
+   word-spacing: 5px;
+   font-size:11px;
+}
+#product-holder{
+    display: flex;
+    justify-content: space-between;
+    padding:70px;
+    background-color:#03071E;
+}
+#product-image-holder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:47vw;
+    
+}

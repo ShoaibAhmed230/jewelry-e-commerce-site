@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,700;0,900;1,700;1,900&family=Roboto+Slab:wght@300;400;600;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="headerFooterStyle.css">
+    <link rel="stylesheet" href="privacy.css">
+    <title>privacy and policy</title>
+</head>
+
+<body>
+    <header>
+        <img src="final-logo (1).jpeg" />
+        <span id="openbar" onclick="openNav()"><a href="#"> <i class="fas fa-bars"></i></a></span>
+    </header>
+    <nav id="side-menu" class="my-side-bar nav">
+        <a href= "javascrit:void(0)" id="closebtn" onclick="closeNav()">&times;</a>
+ 
+         <ul>
+             <li><a href="index.html" class="cool-links ">Home</a></li>
+             <li>
+                 <div class="drop-down-containers">
+                     <a href="#" class="cool-links">Women</a>
+                     <ul>
+                         <li><a href="#"  onclick='categorySelected("women anklets")'>Anklets</a></li>
+                         <li><a href="#"  onclick='categorySelected("women bracelets")'>Bracelets</a></li>
+                         <li><a href="#"  onclick='categorySelected("women bangles")'>Bangles</a></li>
+                         <li><a href="#"  onclick='categorySelected("women earrings")'>Earrings</a></li>
+                         <li><a href="#"  onclick='categorySelected("women nosepins")'>Nose pins</a></li>
+                         <li><a href="#"  onclick='categorySelected("women pendants")'>Pendants</a></li>
+                         <li><a href="#"  onclick='categorySelected("women rings")'>Rings</a></li>
+                     </ul>
+                 </div>
+             </li>
+             <li><div class="drop-down-containers">
+                     <a href="#" class="cool-links">Men</a>
+                     <ul>
+                         <li><a href="#" " onclick='categorySelected("men bracelets")'>Bracelets</a></li>
+                         <li><a href="#"  onclick='categorySelected("men cufflinks")'>Cufflinks</a></li>
+                         <li><a href="#"  onclick='categorySelected("men earrings")'>Earrings</a></li>
+                         <li><a href="#"  onclick='categorySelected("men rings")'>Rings</a></li>
+                         <li><a href="#"  onclick='categorySelected("men pendants")'>Pendants</a></li>
+                     </ul>
+                 </div>
+             </li>
+             <li>
+                 <div class="drop-down-containers">
+                     <a href="#" class="cool-links">Kids</a>
+                     <ul>
+                         <li><a href="#"  onclick='categorySelected("kids anklets")'>Anklets</a></li>
+                         <li><a href="#"  onclick='categorySelected("kids bracelets")'>Bracelets</a></li>
+                         <li><a href="#"  onclick='categorySelected("kids bangles")'>Bangles</a></li>
+                         <li><a href="#"  onclick='categorySelected("kids earrings")'>Earrings</a></li>
+                         <li><a href="#"  onclick='categorySelected("kids pendants")'>Pendants</a></li>
+                         <li><a href="#"  onclick='categorySelected("kids rings")'>Rings</a></li>
+                     </ul>
+                 </div>
+             </li>
+             <li>
+                 <div class="drop-down-containers">
+                     <a href="#" class="cool-links">Gold</a>
+                     <ul>
+                         <li><a href="#"  onclick='categorySelected("gold anklets")' >Anklets</a></li>
+                         <li><a href="#"  onclick='categorySelected("gold bracelets")'>Bracelets</a></li>
+                         <li><a href="#"  onclick='categorySelected("gold bangles")'>Bangles</a></li>
+                         <li><a href="#"  onclick='categorySelected("gold cufflinks")'>Cufflinks</a></li>
+                         <li><a href="#"  onclick='categorySelected("gold earrings")'>Earrings</a></li>
+                         <li><a href="#"  onclick='categorySelected("gold nosepins")'>Nose pins</a></li>
+                         <li><a href="#"  onclick='categorySelected("gold rings")'>Rings</a></li>
+                         <li><a href="#"  onclick='categorySelected("gold pendants")'>Pendants</a></li>
+                     </ul>
+                 </div>
+             </li>
+             <li>
+                 <div class="drop-down-containers">
+                     <a href="#" class="cool-links">Silver</a>
+                     <ul>
+                         <li><a href="#"  onclick='categorySelected("silver anklets")' >Anklets</a></li>
+                         <li><a href="#"  onclick='categorySelected("silver bracelets")'>Bracelets</a></li>
+                         <li><a href="#"  onclick='categorySelected("silver bangles")'>Bangles</a></li>
+                         <li><a href="#"  onclick='categorySelected("silver cufflinks")'>Cufflinks</a></li>
+                         <li><a href="#"  onclick='categorySelected("silver earrings")'>Earrings</a></li>
+                         <li><a href="#"  onclick='categorySelected("silver nosepins")'>Nose pins</a></li>
+                         <li><a href="#"  onclick='categorySelected("silver rings")'>Rings</a></li>
+                         <li><a href="#"  onclick='categorySelected("silver pendants")'>Pendants</a></li>
+                     </ul>
+                 </div>
+             </li>
+             <li>
+                 <div class="drop-down-containers">
+                     <a href="#" class="cool-links">Diamond</a>
+                     <ul>
+                         <li><a href="#"  onclick='categorySelected("diamond anklets")' >Anklets</a></li>
+                         <li><a href="#"  onclick='categorySelected("diamond bracelets")'>Bracelets</a></li>
+                         <li><a href="#"  onclick='categorySelected("diamond bangles")'>Bangles</a></li>
+                         <li><a href="#"  onclick='categorySelected("diamond cufflinks")'>Cufflinks</a></li>
+                         <li><a href="#"  onclick='categorySelected("diamond earrings")'>Earrings</a></li>
+                         <li><a href="#" onclick='categorySelected("diamond nosepins")'>Nose pins</a></li>
+                         <li><a href="#"  onclick='categorySelected("diamond rings")'>Rings</a></li>
+                         <li><a href="#"  onclick='categorySelected("diamond pendants")'>Pendants</a></li>
+                     </ul>
+                 </div>
+             </li>
+             <li><a href="about.html" class="cool-links">About us</a></li>
+         </ul>
+         <ul>
+             <li>
+                 <div class="drop-down-containers" id="account-drop-down-container">
+                     <a href="#" class="cool-links"><i class="far fa-user"></i></a>
+                     <ul id="account-ul">
+                         <li id="login-li"><a href="login.html">Login</a></li>
+                         <li><a href="signup.html">Register</a></li>
+                     </ul>
+                 </div>
+             </li>
+             <li>
+                 <div class="nav-icons-container" onclick='window.location="cart.html"'>
+                     <span id="cart-quantity-indicator">0</span>
+                     <a class="items-in-list-displayer" href="#"><i class="fas fa-shopping-bag"></i></a>
+                 </div>
+             </li>
+             <li>
+                 <div class="nav-icons-container" onclick="window.location='wishlist.html'">
+                     <span id="wishlist-quantity-indicator">0</span>
+                     <a class="items-in-list-displayer" href="#"> <i class="far fa-heart"></i></a>
+                 </div>
+             </li>
+             <li>
+                 <div class="nav-icons-container">
+                     <a href="#"><i class="fas fa-search"></i></a>
+                     <div id="search-dropdown">
+                         <input type="text" maxlength="50" placeholder="Search"/>
+                     </div>
+                 </div>
+             </li>
+         </ul>
+     </nav>
+         
+
+     <h2>Privacy Policy</h2>
+
+     <div class="policy">
+         <p>This Privacy Policy describes how your personal information is collected, used, and shared when you visit or make a purchase from jewelicious.com</p>
+         <h3><b>PERSONAL INFORMATION WE COLLECT
+        </b></h3>
+        <p>When you visit the Site, we automatically collect certain information about your device, including information about your web browser, IP address, time zone, and some of the cookies that are installed on your device. Additionally, as you browse the Site, we collect information about the individual web pages or products that you view, what websites or search terms referred you to the Site, and information about how you interact with the Site. We refer to this automatically-collected information as “Device Information”.
+        </p>
+        <h3><b>HOW DO WE USE YOUR PERSONAL INFORMATION?
+        </b></h3>
+        <p>We use the Order Information that we collect generally to fulfill any orders placed through the Site (including processing your payment information, arranging for shipping, and providing you with invoices and/or order confirmations). Additionally, we use this Order Information to:
+            - Communicate with you;
+            - Screen our orders for potential risk or fraud; and
+            - When in line with the preferences you have shared with us, provide you with information or advertising relating to our products or services.
+            
+            We use the Device Information that we collect to help us screen for potential risk and fraud (in particular, your IP address), and more generally to improve and optimize our Site (for example, by generating analytics about how our customers browse and interact with the Site, and to assess the success of our marketing and advertising campaigns).</p>
+        <h3><b> YOUR PERSONAL INFORMATION
+        </b></h3>  
+        <p>We share your Personal Information with third parties to help us use your Personal Information, as described above. For example, we use Shopify to power our online store--you can read more about how Shopify uses your Personal Information here: https://www.shopify.com/legal/privacy. We also use Google Analytics to help us understand how our customers use the Site -- you can read more about how Google uses your Personal Information here: https://www.google.com/intl/en/policies/privacy/. You can also opt-out of Google Analytics here: https://tools.google.com/dlpage/gaoptout.
+
+            Finally, we may also share your Personal Information to comply with applicable laws and regulations, to respond to a subpoena, search warrant or other lawful request for information we receive, or to otherwise protect our rights.</p>
+         <h3><b>YOUR RIGHTS
+        </b></h3> 
+        <p>If you are a European resident, you have the right to access personal information we hold about you and to ask that your personal information be corrected, updated, or deleted. If you would like to exercise this right, please contact us through the contact information below.
+
+            Additionally, if you are a European resident we note that we are processing your information in order to fulfill contracts we might have with you (for example if you make an order through the Site), or otherwise to pursue our legitimate business interests listed above. Additionally, please note that your information will be transferred outside of Europe, including to Canada and the United States.</p>  
+         <h3><b>DATA RETENTION
+        </b></h3>
+        <p>When you place an order through the Site, we will maintain your Order Information for our records unless and until you ask us to delete this information.</p>   
+        <h3><b>CHANGES</b></h3>
+        <p>We may update this privacy policy from time to time in order to reflect, for example, changes to our practices or for other operational, legal or regulatory reasons.</p>
+        <h3><b>CONTACT US
+        </b></h3>
+        <p>For more information about our privacy practices, if you have questions, or if you would like to make a complaint, please contact us by e‑mail at jewelicious@gmail.com</p>
+
+
+     </div>
+
+     <footer>
+        <div id="foot-background">
+
+            <section class="foot-detail">
+
+                <div class="foot-item">
+                    <h1 id="foot-heading">Find us</h1>
+
+                    <div id="icon-anchor">
+                        <a id="icon-anchor1" href="#" class="cool-link"><i class="fas fa-globe-europe"></i> 1234 Street Name City, AA
+                            9999</a>
+                        <a id="icon-anchor2" href="#" class="cool-link"><i class="fas fa-bell"></i> +1 (0) 000 0000 001</a>
+                        <a id="icon-anchor3" href="#" class="cool-link"><i class="far fa-envelope"></i> jewelicious@gmail.com</a>
+                       
+                        <div id="social-icons-div">
+                            <a href="#" class="icon-anchor4"  class="cool-link" ><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="icon-anchor4"  class="cool-link"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="icon-anchor4"  class="cool-link"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="icon-anchor4"  class="cool-link"><i class="fab fa-youtube"></i></a>
+                            <a href="#" class="icon-anchor4"  class="cool-link"><i class="fab fa-google-plus-g"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="foot-detail1">
+                    <h1>Explore Jewelicious</h1>
+                    <a href="index.html" class="cool-link">Home</a>
+                    <a href="cart.html"  class="cool-link" >Cart</a>
+                    <a href="wishlist.html"  class="cool-link">Whishlist</a>
+                    <a href="index.html"  class="cool-link">Men</a>
+                    <a href="index.html" class="cool-link">Woman</a>
+                    <a href="index.html" class="cool-link">Kids</a>
+                    <a href="index.html" class="cool-link">Gold</a>
+                    <a href="index.html" class="cool-link">Diamond</a>
+                    <a href="index.html" class="cool-link">Silver</a>
+
+
+                </div>
+                <div class="foot-detail1">
+                    <h1>Policy Matters</h1>
+                    <a href="privacy.html" class="cool-link">Terms And conditions</a>
+                    <a href="privacy.html" class="cool-link" >Privacy Policy</a>
+                    <a href="privacy.html" class="cool-link">Exchange Policy</a>
+                    <a href="privacy.html" class="cool-link">Shipping Details</a>
+                    <a href="privacy.html" class="cool-link"> Payment Methods</a>
+                </div>
+                <div class="foot-detail1">
+                    <h1>About Us</h1>
+                    <a href="faqs.html" class="cool-link">FAQ(frequently Asked Questions).</a>
+                    <a href="about.html" class="cool-link">Why Us?</a>
+                    <a href="contact.html" class="cool-link">Contact us</a>
+                </div>
+            </section>
+        </div>
+        <p class="foot-para"> © 2020 Jewelicious All rights reserved</p>
+
+    </footer>
+    <button onclick="topFunction()" id="updown"><a href="#"><i class="fas fa-chevron-up"></i></a></button>
+
+<script src="sidestyle.js"></script>
+</body>
+
+</html>

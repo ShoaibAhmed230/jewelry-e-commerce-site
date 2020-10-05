@@ -1,0 +1,27 @@
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #a78627;
+    margin: 18px;
+    text-align: center;
+}
+.why-us{
+    width: 84%;
+    margin: auto;
+    background-color: #03071E;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #a78627;
+    padding: 10px;
+    line-height: 80px;
+}
+.why-us p{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Roboto Slab', serif;
+    color: #a78627;
+
+}

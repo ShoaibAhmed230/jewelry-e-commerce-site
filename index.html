@@ -1,0 +1,346 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,700;0,900;1,700;1,900&family=Roboto+Slab:wght@300;400;600;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="homeMainSection.css">
+    <link rel="stylesheet" href="headerFooterStyle.css">
+    <title>Home | Jewelicious</title>
+    
+</head>
+
+<body>
+    <header>
+        <img src="images/final-logo.jpeg" />
+        <span id="openbar" onclick="openNav()"><a href="#"> <i class="fas fa-bars"></i></a></span>
+    </header>
+    <nav id="side-menu" class="my-side-bar nav">
+       <a href= "javascrit:void(0)" id="closebtn" onclick="closeNav()">&times;</a>
+
+        <ul>
+            <li><a href="index.html" class="cool-links ">Home</a></li>
+            <li>
+                <div class="drop-down-containers">
+                    <a href="#" class="cool-links">Women</a>
+                    <ul>
+                        <li><a href="#"  onclick='categorySelected("women anklets")'>Anklets</a></li>
+                        <li><a href="#"  onclick='categorySelected("women bracelets")'>Bracelets</a></li>
+                        <li><a href="#"  onclick='categorySelected("women bangles")'>Bangles</a></li>
+                        <li><a href="#"  onclick='categorySelected("women earrings")'>Earrings</a></li>
+                        <li><a href="#"  onclick='categorySelected("women nosepins")'>Nose pins</a></li>
+                        <li><a href="#"  onclick='categorySelected("women pendants")'>Pendants</a></li>
+                        <li><a href="#"  onclick='categorySelected("women rings")'>Rings</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><div class="drop-down-containers">
+                    <a href="#" class="cool-links">Men</a>
+                    <ul>
+                        <li><a href="#" " onclick='categorySelected("men bracelets")'>Bracelets</a></li>
+                        <li><a href="#"  onclick='categorySelected("men cufflinks")'>Cufflinks</a></li>
+                        <li><a href="#"  onclick='categorySelected("men earrings")'>Earrings</a></li>
+                        <li><a href="#"  onclick='categorySelected("men rings")'>Rings</a></li>
+                        <li><a href="#"  onclick='categorySelected("men pendants")'>Pendants</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="drop-down-containers">
+                    <a href="#" class="cool-links">Kids</a>
+                    <ul>
+                        <li><a href="#"  onclick='categorySelected("kids anklets")'>Anklets</a></li>
+                        <li><a href="#"  onclick='categorySelected("kids bracelets")'>Bracelets</a></li>
+                        <li><a href="#"  onclick='categorySelected("kids bangles")'>Bangles</a></li>
+                        <li><a href="#"  onclick='categorySelected("kids earrings")'>Earrings</a></li>
+                        <li><a href="#"  onclick='categorySelected("kids pendants")'>Pendants</a></li>
+                        <li><a href="#"  onclick='categorySelected("kids rings")'>Rings</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="drop-down-containers">
+                    <a href="#" class="cool-links">Gold</a>
+                    <ul>
+                        <li><a href="#"  onclick='categorySelected("gold anklets")' >Anklets</a></li>
+                        <li><a href="#"  onclick='categorySelected("gold bracelets")'>Bracelets</a></li>
+                        <li><a href="#"  onclick='categorySelected("gold bangles")'>Bangles</a></li>
+                        <li><a href="#"  onclick='categorySelected("gold cufflinks")'>Cufflinks</a></li>
+                        <li><a href="#"  onclick='categorySelected("gold earrings")'>Earrings</a></li>
+                        <li><a href="#"  onclick='categorySelected("gold nosepins")'>Nose pins</a></li>
+                        <li><a href="#"  onclick='categorySelected("gold rings")'>Rings</a></li>
+                        <li><a href="#"  onclick='categorySelected("gold pendants")'>Pendants</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="drop-down-containers">
+                    <a href="#" class="cool-links">Silver</a>
+                    <ul>
+                        <li><a href="#"  onclick='categorySelected("silver anklets")' >Anklets</a></li>
+                        <li><a href="#"  onclick='categorySelected("silver bracelets")'>Bracelets</a></li>
+                        <li><a href="#"  onclick='categorySelected("silver bangles")'>Bangles</a></li>
+                        <li><a href="#"  onclick='categorySelected("silver cufflinks")'>Cufflinks</a></li>
+                        <li><a href="#"  onclick='categorySelected("silver earrings")'>Earrings</a></li>
+                        <li><a href="#"  onclick='categorySelected("silver nosepins")'>Nose pins</a></li>
+                        <li><a href="#"  onclick='categorySelected("silver rings")'>Rings</a></li>
+                        <li><a href="#"  onclick='categorySelected("silver pendants")'>Pendants</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="drop-down-containers">
+                    <a href="#" class="cool-links">Diamond</a>
+                    <ul>
+                        <li><a href="#"  onclick='categorySelected("diamond anklets")' >Anklets</a></li>
+                        <li><a href="#"  onclick='categorySelected("diamond bracelets")'>Bracelets</a></li>
+                        <li><a href="#"  onclick='categorySelected("diamond bangles")'>Bangles</a></li>
+                        <li><a href="#"  onclick='categorySelected("diamond cufflinks")'>Cufflinks</a></li>
+                        <li><a href="#"  onclick='categorySelected("diamond earrings")'>Earrings</a></li>
+                        <li><a href="#" onclick='categorySelected("diamond nosepins")'>Nose pins</a></li>
+                        <li><a href="#"  onclick='categorySelected("diamond rings")'>Rings</a></li>
+                        <li><a href="#"  onclick='categorySelected("diamond pendants")'>Pendants</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="about.html" class="cool-links">About us</a></li>
+        </ul>
+        <ul>
+            <li>
+                <div class="drop-down-containers" id="account-drop-down-container">
+                    <a href="#" class="cool-links"><i class="far fa-user"></i></a>
+                    <ul id="account-ul">
+                        <li id="login-li"><a href="login.html">Login</a></li>
+                        <li><a href="signup.html">Register</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="nav-icons-container" onclick='window.location="cart.html"'>
+                    <span id="cart-quantity-indicator">0</span>
+                    <a class="items-in-list-displayer" href="#"><i class="fas fa-shopping-bag"></i></a>
+                </div>
+            </li>
+            <li>
+                <div class="nav-icons-container" onclick="window.location='wishlist.html'">
+                    <span id="wishlist-quantity-indicator">0</span>
+                    <a class="items-in-list-displayer" href="#"> <i class="far fa-heart"></i></a>
+                </div>
+            </li>
+            <li>
+                <div class="nav-icons-container">
+                    <a href="#"><i class="fas fa-search"></i></a>
+                    <div id="search-dropdown">
+                        <input type="text" maxlength="50" placeholder="Search"/>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </nav>
+        
+
+    <main>
+        <img id="main-image" src="images/sliderhome/bg-image3.jpg" alt="image1 slider">
+        <section id="about-us">
+            <img src="images/sliderhome/bg-image2.jpg" alt="image2 slider">
+            <div id="about-paragraph">
+                <h1>About us</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy
+                    text ever since the 1500s, when an unknown printer took
+                    a galley of type and scrambled it to make a type specimen book.
+                    It has survived not only five centuries, but also the leap into
+                    electronic typesetting, remaining essentially unchanged.
+                    It was popularised in the 1960s with the release of Letraset
+                    sheets containing Lorem Ipsum passages, and more recently with
+                    desktop publishing software like Aldus PageMaker including versions
+                    of Lorem Ipsum.</p>
+            </div>
+        </section>
+        <section id="categories">
+            <div class="category-portions">
+                <h1>Women</h1>
+                <div class="slider-container">
+                    <div id="images-slider">
+                        <img src="images/women/gold/bangles/bangle1.jpg" alt="image1 slider">
+                        <img src="images/women/gold/rings/rings2.JPG" alt="image2 slider">
+                        <img src="images/women/diamond/earrings/rim-studs-ll.JPG" alt="image3 slider">
+                        <img src="images/women/diamond/pendants/alisa.JPG" alt="image4 slider">
+                        <img src="images/women/diamond/bangles/bangle4.JPG" alt="image6 slider">
+                        <img src="images/women/gold/bangles/bangle1.jpg" alt="image1 slider">
+                    </div>
+                </div>
+            </div>
+            <!-- Men jewellery category -->
+            <div class="category-portions">
+                <h1>Men</h1>
+                <div class="slider-container">
+                    <div id="images-slider">
+                        <img src="images/men/gold/bracelet/Personalized-Men's-ID.JPG" alt="image1 slider">
+                        <img src="images/men/gold/cufflink/Gold-Square-Cufflinks.JPG" alt="image2 slider">
+                        <img src="images/men/gold/pendant/Compass-North-Star-Pendant-Gold-Chain.JPG" alt="image3 slider">
+                        <img src="images/men/gold/earring/Patric-Ear-Stud-for-Him.JPG" alt="image4 slider">
+                        <img src="images/men/silver/ring/Mens-Wheat-Cable-Band-Silver-a.JPG" alt="image6 slider">
+                        <img src="images/men/daimond/bracelet/Men's-Diamond-Link-Bracelet.JPG" alt="image1 slider">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section id="collections">
+
+            <div>
+                <div>
+                    <h2 class="grid-child-heading">Bangles</h2>
+                    <img src="images/women/diamond/bangles/bangle4.JPG" alt="collection1">
+                    <div class="black-opacity-div">
+                        <!-- black div with light opacity -->
+                    </div>
+                </div>
+                <div id="collection-paragraph">
+                    <h1>Collections</h1>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the industry's standard dummy
+                        text ever since the 1500s, when an unknown printer took
+                        a galley of type and scrambled it to make a type specimen book.
+                        It has survived not only five centuries, but also the leap into
+                        electronic typesetting, remaining essentially unchanged.
+                    </p>
+                </div>
+                <div>
+                    <h2 class="grid-child-heading">Earings</h2>
+                    <img src="images/women/silver/earrings/earings4.JPG" alt="collection1">
+                    <div class="black-opacity-div">
+                        <!-- black div with light opacity -->
+                    </div>
+                </div>
+                <div>
+                    <h2 class="grid-child-heading">Braclets</h2>
+                    <img src="images/women/silver/bracelets/bracelet9.JPG" alt="collection1">
+                    <div class="black-opacity-div">
+                        <!-- black div with light opacity -->
+                    </div>
+                </div>
+                <div>
+                    <h2 class="grid-child-heading">Rings</h2>
+                    <img src="images/women/gold/rings/diamond-ring1.JPG" alt="collection1">
+                    <div class="black-opacity-div">
+                        <!-- black div with light opacity -->
+                    </div>
+                </div>
+                <div>
+                    <h2 class="grid-child-heading">Nosepins</h2>
+                    <img src="images/women/silver/nosepins/nosepin3.png" alt="collection1">
+                    <div class="black-opacity-div">
+                        <!-- black div with light opacity -->
+                    </div>
+                </div>
+                <div>
+                    <h2 class="grid-child-heading">Cufflinks</h2>
+                    <img src="images/men/gold/cufflink/Monogrammed-Cufflinks.JPG" alt="collection1">
+                    <div class="black-opacity-div">
+                        <!-- black div with light opacity -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="testimonials">
+            <h1>Why Customers Trust Jewelicious</h1>
+            <div id="testimonial-slider">
+                <div id="slider-container">
+                    <!-- reviews will generate with js -->
+                </div>
+            </div>
+        </section>
+
+        <section id="contact-home">
+            <div>
+                <h1>How may we assist you?</h1>
+                <button onclick="window.location = 'contact.html'">Get in touch</button>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- This is footer section  -->
+    <footer>
+        <div id="foot-background">
+            <section>
+
+                <div class="map">
+                    <iframe src="https://maps.google.com/maps?q=karachi&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                        width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""
+                        aria-hidden="false" tabindex="0"></iframe>
+                    <a href="https://www.crocothemes.net"></a>
+
+                </div>
+
+            </section>
+
+            <section class="foot-detail">
+
+                <div class="foot-item">
+                    <h1 id="foot-heading">Find us</h1>
+
+                    <div id="icon-anchor">
+                        <a id="icon-anchor1" href="#" class="cool-link"><i class="fas fa-globe-europe"></i> 1234 Street Name City, AA
+                            9999</a>
+                        <a id="icon-anchor2" href="#" class="cool-link"><i class="fas fa-bell"></i> +1 (0) 000 0000 001</a>
+                        <a id="icon-anchor3" href="#" class="cool-link"><i class="far fa-envelope"></i> jewelicious@gmail.com</a>
+                       
+                        <div id="social-icons-div">
+                            <a href="#" class="icon-anchor4"  class="cool-link" ><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="icon-anchor4"  class="cool-link"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="icon-anchor4"  class="cool-link"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="icon-anchor4"  class="cool-link"><i class="fab fa-youtube"></i></a>
+                            <a href="#" class="icon-anchor4"  class="cool-link"><i class="fab fa-google-plus-g"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="foot-detail1">
+                    <h1>Explore Jewelicious</h1>
+                    <a href="index.html" class="cool-link">Home</a>
+                    <a href="cart.html"  class="cool-link" >Cart</a>
+                    <a href="wishlist.html"  class="cool-link">Whishlist</a>
+                    <a href="index.html"  class="cool-link">Men</a>
+                    <a href="index.html" class="cool-link">Woman</a>
+                    <a href="index.html" class="cool-link">Kids</a>
+                    <a href="index.html" class="cool-link">Gold</a>
+                    <a href="index.html" class="cool-link">Diamond</a>
+                    <a href="index.html" class="cool-link">Silver</a>
+
+
+                </div>
+                <div class="foot-detail1">
+                    <h1>Policy Matters</h1>
+                    <a href="privacy.html" class="cool-link">Terms And conditions</a>
+                    <a href="privacy.html" class="cool-link" >Privacy Policy</a>
+                    <a href="privacy.html" class="cool-link">Exchange Policy</a>
+                    <a href="privacy.html" class="cool-link">Shipping Details</a>
+                    <a href="privacy.html" class="cool-link"> Payment Methods</a>
+                </div>
+                <div class="foot-detail1">
+                    <h1>About Us</h1>
+                    <a href="faqs.html" class="cool-link">FAQ(frequently Asked Questions).</a>
+                    <a href="about.html" class="cool-link">Why Us?</a>
+                    <a href="contact.html" class="cool-link">Contact us</a>
+                </div>
+            </section>
+        </div>
+        <p class="foot-para"> © 2020 Jewelicious All rights reserved</p>
+
+    </footer>
+    <button onclick="topFunction()" id="updown"><a href="#"><i class="fas fa-chevron-up"></i></a></button>
+
+<script src="homeScript.js"></script>
+<script src="sidestyle.js"></script>
+</body>
+
+</html>
+
